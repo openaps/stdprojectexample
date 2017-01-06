@@ -54,6 +54,10 @@ pydoc stdprojectexample
 ```
 
 Run smoke tests.
+```
+# make test
+# python setupd.py test
+```
 Update changelog.
 We're about to create new commits.
 
@@ -79,7 +83,7 @@ release is a bell that cannot be unrung.
 
 ```
 # Upload to PyPi
-python setup.py build sdist_egg upload
+python setup.py build bdist_egg upload
 ```
 Observe new release in pypi.
 
