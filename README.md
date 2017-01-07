@@ -56,7 +56,7 @@ pydoc stdprojectexample
 Run smoke tests.
 ```
 # make test
-# python setupd.py test
+# python setup.py test
 ```
 Update changelog.
 We're about to create new commits.
@@ -125,4 +125,3 @@ To install an arbitrary (eg `dev`) version using pip without cloning the repo:
 ```
 pip install -U http+https://github.com/openaps/stdprojectexample.git@dev
 ```
-
