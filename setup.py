@@ -11,7 +11,7 @@ def readme():
         return f.read()
 
 setup(name='stdprojectexample',
-    version='0.0.1', # http://semver.org/
+    version='0.0.2-dev', # http://semver.org/
     description='Frib with Frobs with excellent Fermocity.',
     long_description=readme(),
     # Original Author
