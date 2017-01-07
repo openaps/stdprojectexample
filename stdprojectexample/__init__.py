@@ -7,3 +7,4 @@ There's not much here, it's just an example.
 
 """
 
+some_variable_name = "This is just a test"
